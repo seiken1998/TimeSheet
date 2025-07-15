@@ -8,6 +8,8 @@ on:
     # Si quieres cambiar a las 8:00 AM hora Perú (13:00 UTC), descomenta esta línea y comenta la de arriba
     # - cron: '0 13 * * *'
 
+  workflow_dispatch:
+
 jobs:
   build:
     runs-on: ubuntu-latest
